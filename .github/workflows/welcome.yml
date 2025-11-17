@@ -18,3 +18,15 @@ jobs:
         shell: pwsh
       - run: echo "Hello" 
         shell: bash
+  build2:
+    name: Post welcome comment2
+    runs-on: ubuntu-latest
+    steps:
+      - run: Write-Host "Hello" 
+        shell: pwsh
+      - run: echo "Hello" 
+        shell: bash
+      - run: Write-Host "Hello" 
+        shell: pwsh
+      - run: echo "Hello" 
+        shell: bash
