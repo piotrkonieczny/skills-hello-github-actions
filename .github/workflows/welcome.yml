@@ -1,7 +1,6 @@
 name: Post welcome comment
 on:
   push:
-    - main
   pull_request:
     types: [opened]
 permissions:
